@@ -1,0 +1,39 @@
+.header__container {
+	padding: 0 1.5rem;
+	background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+	display: flex;
+	align-items: center;
+	height: 4.1rem;
+	justify-content: space-between;
+}
+.header__logo {
+	display: flex;
+	align-items: center;
+}
+.header__logo-img {
+	height: 2rem;
+	width: 1.55rem;
+}
+.header__logo-title {
+	font-family: var(--karla-font);
+	margin-left: 0.47rem;
+	font-weight: 700;
+	font-size: 1.3rem;
+	line-height: 1.5rem;
+	letter-spacing: -0.1rem;
+	color: var(--color-white);
+}
+
+.header__description {
+	font-family: var(--inter-font);
+	font-weight: 500;
+	font-size: 0.75rem;
+	line-height: 0.94rem;
+	color: var(--color-white);
+}
+
+@media screen and (max-width: 600px) {
+	.header__description {
+		display: none;
+	}
+}
